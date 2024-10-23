@@ -1,53 +1,51 @@
-main:
+<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
 
-  - title: "Seq-VCR: Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning"
-    authors: <strong>Md Rifat Arefin</strong>, Gopeshh Subbaraj, Nicolas Gontier, Yann LeCun, Irina Rish, Ravid Shwartz-Ziv, Christopher Pal
-    conference_short: ICLR
-    conference: International Conference in Learning Representations <strong>(ICLR)</strong>, 2025.
-    pdf: https://drive.google.com/file/d/1tUomcUAxtqFzQ8wH3z9WsI9YFsrJKsGQ/view?usp=sharing
-    code: https://github.com/rarefin/SEQ_VCR
-    image: ./assets/img/seq_vcr.png
-    notes: Submitted
+<div class="publications">
+<ol class="bibliography">
 
-  - title: "Does Representation Matter? Exploring Intermediate Layers in Large Language Models"
-    authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Ravid Shwartz-Ziv
-    conference_short: NeurIPS
-    conference: Machine Learning and Compression Workshop @ <strong>NeurIPS</strong>, 2024
-    pdf: https://drive.google.com/file/d/15-5Kx4bjKnbd4DRLHClqGMhfDmp3qFoz/view?usp=sharing
-    notes: Accpeted
-    image: ./assets/img/representation_compression.png
+{% for link in site.data.publications.main %}
 
-  - title: "Unsupervised Concept Discovery Mitigates Spurious Correlations"
-    authors: strong>Md Rifat Arefin</strong>, Yan Zhang, Aristide Baratin, Francesco Locatello, Irina Rish, Dianbo Liu, Kenji Kawaguchi
-    conference_short: ICML
-    conference: International Conference on Machine Learning <strong>ICML</strong>, 2024
-    pdf: https://arxiv.org/abs/2402.13368
-    code: https://github.com/rarefin/CoBalT
-    notes: Published
-    image: ./assets/img/cobalt.png
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    {% if link.image %} 
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    {% if link.conference_short %} 
+    <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
+    {% endif %}
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      <div class="author">{{ link.authors }}</div>
+      <div class="periodical"><em>{{ link.conference }}</em>
+      </div>
+    <div class="links">
+      {% if link.pdf %} 
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      {% endif %}
+      {% if link.code %} 
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      {% endif %}
+      {% if link.page %} 
+      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      {% endif %}
+      {% if link.bibtex %} 
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      {% endif %}
+      {% if link.notes %} 
+      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
+      {% endif %}
+      {% if link.others %} 
+      {{ link.others }}
+      {% endif %}
+    </div>
+  </div>
+</div>
+</li>
+<br>
 
-  - title: "Continual learning with foundation models: An empirical study of latent replay"
-    conference_short: COLLAs
-    conference: 1st Conference on Lifelong Learning Agent <strong>COLLAs</strong>, 2022
-    pdf: https://proceedings.mlr.press/v199/ostapenko22a/ostapenko22a.pdf
-    notes: Published
-    image: ./assets/img/avatar.png
+{% endfor %}
 
-  - title: "AvaTr: One-Shot Speaker Extraction with Transformers"
-    authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Ravid Shwartz-Ziv
-    conference_short: Interspeech
-    conference: International Speech Conference <strong>Interspeech</strong>, 2021
-    pdf: https://arxiv.org/pdf/2105.00609.pdf
-    notes: Published
-    image: ./assets/img/avatar.png
-
-  - title: "Multi-Image Super-Resolution for Remote Sensing using Deep Recurrent Networks"
-    authors: Md Rifat Arefin, Vincent Michalski, Pierre-Luc St-Charles, Alfredo Kalaitzis, Sookyung Kim, Samira E. Kahou, Yoshua Bengio
-    conference_short: CVPR
-    conference: EARTHVISION Workshop @ <strong>CVPR</strong>, 2020
-    pdf: https://openaccess.thecvf.com/content_CVPRW_2020/papers/w11/Arefin_Multi-Image_Super-Resolution_for_Remote_Sensing_Using_Deep_Recurrent_Networks_CVPRW_2020_paper.pdf
-    code: https://github.com/rarefin/MISR-GRU
-    notes: Published
-    image: ./assets/img/avatar.png
-
-  
+</ol>
+</div>

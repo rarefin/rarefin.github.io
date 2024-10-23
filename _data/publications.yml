@@ -1,22 +1,51 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "Seq-VCR: Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning"
+    authors: <strong>Md Rifat Arefin</strong>, Gopeshh Subbaraj, Nicolas Gontier, Yann LeCun, Irina Rish, Ravid Shwartz-Ziv, Christopher Pal
+    conference_short: ICLR
+    conference: International Conference in Learning Representations <strong>(ICLR)</strong>, 2025.
+    pdf: https://drive.google.com/file/d/1tUomcUAxtqFzQ8wH3z9WsI9YFsrJKsGQ/view?usp=sharing
+    code: https://github.com/rarefin/SEQ_VCR
+    image: ./assets/img/seq_vcr.png
+    notes: Submitted
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+  - title: "Does Representation Matter? Exploring Intermediate Layers in Large Language Models"
+    authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Ravid Shwartz-Ziv
+    conference_short: NeurIPS
+    conference: Machine Learning and Compression Workshop @ <strong>NeurIPS</strong>, 2024
+    pdf: https://drive.google.com/file/d/15-5Kx4bjKnbd4DRLHClqGMhfDmp3qFoz/view?usp=sharing
+    notes: Accpeted
+    image: ./assets/img/representation_compression.png
+
+  - title: "Unsupervised Concept Discovery Mitigates Spurious Correlations"
+    authors: strong>Md Rifat Arefin</strong>, Yan Zhang, Aristide Baratin, Francesco Locatello, Irina Rish, Dianbo Liu, Kenji Kawaguchi
+    conference_short: ICML
+    conference: International Conference on Machine Learning <strong>ICML</strong>, 2024
+    pdf: https://arxiv.org/abs/2402.13368
+    code: https://github.com/rarefin/CoBalT
+    notes: Published
+    image: ./assets/img/cobalt.png
+
+  - title: "Continual learning with foundation models: An empirical study of latent replay"
+    conference_short: COLLAs
+    conference: 1st Conference on Lifelong Learning Agent <strong>COLLAs</strong>, 2022
+    pdf: https://proceedings.mlr.press/v199/ostapenko22a/ostapenko22a.pdf
+    notes: Published
+    image: ./assets/img/avatar.png
+
+  - title: "AvaTr: One-Shot Speaker Extraction with Transformers"
+    authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Ravid Shwartz-Ziv
+    conference_short: Interspeech
+    conference: International Speech Conference <strong>Interspeech</strong>, 2021
+    pdf: https://arxiv.org/pdf/2105.00609.pdf
+    notes: Published
+    image: ./assets/img/avatar.png
+
+  - title: "Multi-Image Super-Resolution for Remote Sensing using Deep Recurrent Networks"
+    authors: Md Rifat Arefin, Vincent Michalski, Pierre-Luc St-Charles, Alfredo Kalaitzis, Sookyung Kim, Samira E. Kahou, Yoshua Bengio
     conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+    conference: EARTHVISION Workshop @ <strong>CVPR</strong>, 2020
+    pdf: https://openaccess.thecvf.com/content_CVPRW_2020/papers/w11/Arefin_Multi-Image_Super-Resolution_for_Remote_Sensing_Using_Deep_Recurrent_Networks_CVPRW_2020_paper.pdf
+    code: https://github.com/rarefin/MISR-GRU
+    notes: Published
+    image: ./assets/img/avatar.png
