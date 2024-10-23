@@ -20,6 +20,8 @@ I am a Ph.D. student at Mila and University of Montreal supervised by Professor 
 
 {% include_relative _includes/services.md %}
 
+{% include_relative _includes/awards.md %}
+
 {% include_relative _includes/publications.md %}
 
 
