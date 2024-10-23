@@ -26,14 +26,14 @@ main:
     notes: Published
     image: ./assets/img/cobalt.png
 
-    - title: "Continual learning with foundation models: An empirical study of latent replay"
+  - title: "Continual learning with foundation models: An empirical study of latent replay"
     conference_short: COLLAs
     conference: 1st Conference on Lifelong Learning Agent <strong>COLLAs</strong>, 2022
     pdf: https://proceedings.mlr.press/v199/ostapenko22a/ostapenko22a.pdf
     notes: Published
     image: ./assets/img/avatar.png
 
-    - title: "AvaTr: One-Shot Speaker Extraction with Transformers"
+  - title: "AvaTr: One-Shot Speaker Extraction with Transformers"
     authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Ravid Shwartz-Ziv
     conference_short: Interspeech
     conference: International Speech Conference <strong>Interspeech</strong>, 2021
@@ -41,7 +41,7 @@ main:
     notes: Published
     image: ./assets/img/avatar.png
 
-    - title: "Multi-Image Super-Resolution for Remote Sensing using Deep Recurrent Networks"
+  - title: "Multi-Image Super-Resolution for Remote Sensing using Deep Recurrent Networks"
     authors: Md Rifat Arefin, Vincent Michalski, Pierre-Luc St-Charles, Alfredo Kalaitzis, Sookyung Kim, Samira E. Kahou, Yoshua Bengio
     conference_short: CVPR
     conference: EARTHVISION Workshop @ <strong>CVPR</strong>, 2020
