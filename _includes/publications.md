@@ -5,18 +5,14 @@ main:
     conference: International Conference in Learning Representations <strong>(ICLR)</strong>, 2025.
     pdf: https://drive.google.com/file/d/1tUomcUAxtqFzQ8wH3z9WsI9YFsrJKsGQ/view?usp=sharing
     code: https://github.com/rarefin/SEQ_VCR
-    # bibtex: 
     image: ./assets/img/seq_vcr.png
     notes: Submitted
-
+    
   - title: "Does Representation Matter? Exploring Intermediate Layers in Large Language Models"
     authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Ravid Shwartz-Ziv
     conference_short: NeurIPS
     conference: Machine Learning and Compression Workshop @ <strong>NeurIPS</strong>, 2024
     pdf: https://drive.google.com/file/d/15-5Kx4bjKnbd4DRLHClqGMhfDmp3qFoz/view?usp=sharing
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Accpeted
     image: ./assets/img/representation_compression.png
 
@@ -26,8 +22,6 @@ main:
     conference: International Conference on Machine Learning <strong>ICML</strong>, 2024
     pdf: https://arxiv.org/abs/2402.13368
     code: https://github.com/rarefin/CoBalT
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Published
     image: ./assets/img/cobalt.png
 
@@ -35,9 +29,6 @@ main:
     conference_short: COLLAs
     conference: 1st Conference on Lifelong Learning Agent <strong>COLLAs</strong>, 2022
     pdf: https://proceedings.mlr.press/v199/ostapenko22a/ostapenko22a.pdf
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Published
     image: ./assets/img/avatar.png
 
@@ -46,9 +37,6 @@ main:
     conference_short: Interspeech
     conference: International Speech Conference <strong>Interspeech</strong>, 2021
     pdf: https://arxiv.org/pdf/2105.00609.pdf
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Published
     image: ./assets/img/avatar.png
 
@@ -58,7 +46,6 @@ main:
     conference: EARTHVISION Workshop @ <strong>CVPR</strong>, 2020
     pdf: https://openaccess.thecvf.com/content_CVPRW_2020/papers/w11/Arefin_Multi-Image_Super-Resolution_for_Remote_Sensing_Using_Deep_Recurrent_Networks_CVPRW_2020_paper.pdf
     code: https://github.com/rarefin/MISR-GRU
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Published
     image: ./assets/img/avatar.png
 
