@@ -1,5 +1,6 @@
 main:
-  - title: eq-VCR: "Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning"
+
+  - title: "Seq-VCR: Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning"
     authors: <strong>Md Rifat Arefin</strong>, Gopeshh Subbaraj, Nicolas Gontier, Yann LeCun, Irina Rish, Ravid Shwartz-Ziv, Christopher Pal
     conference_short: ICLR
     conference: International Conference in Learning Representations <strong>(ICLR)</strong>, 2025.
@@ -7,7 +8,7 @@ main:
     code: https://github.com/rarefin/SEQ_VCR
     image: ./assets/img/seq_vcr.png
     notes: Submitted
-    
+
   - title: "Does Representation Matter? Exploring Intermediate Layers in Large Language Models"
     authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Ravid Shwartz-Ziv
     conference_short: NeurIPS
