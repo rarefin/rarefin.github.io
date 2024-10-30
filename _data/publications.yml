@@ -2,12 +2,9 @@ main:
 
   - title: "Seq-VCR: Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning"
     authors: <strong>Md Rifat Arefin</strong>, Gopeshh Subbaraj, Nicolas Gontier, Yann LeCun, Irina Rish, Ravid Shwartz-Ziv, Christopher Pal
-    conference_short: ICLR
-    conference: International Conference in Learning Representations <strong>(ICLR)</strong>, 2025.
     pdf: https://drive.google.com/file/d/1tUomcUAxtqFzQ8wH3z9WsI9YFsrJKsGQ/view?usp=sharing
     code: https://github.com/rarefin/SEQ_VCR
     image: ./assets/img/seq_vcr.png
-    notes: Submitted
 
   - title: "Does Representation Matter? Exploring Intermediate Layers in Large Language Models"
     authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Ravid Shwartz-Ziv
@@ -34,7 +31,7 @@ main:
     image: ./assets/img/avatar.png
 
   - title: "AvaTr: One-Shot Speaker Extraction with Transformers"
-    authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Ravid Shwartz-Ziv
+    authors: Shell Xu Hu, <strong>Md Rifat Arefin</strong>, Viet-Nhat Nguyen, Alish Dipani, Xaq Pitkow, Andreas Savas Tolias
     conference_short: Interspeech
     conference: International Speech Conference <strong>Interspeech</strong>, 2021
     pdf: https://arxiv.org/pdf/2105.00609.pdf
