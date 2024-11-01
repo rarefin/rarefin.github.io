@@ -1,11 +1,5 @@
 main:
 
-  - title: "Seq-VCR: Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning"
-    authors: <strong>Md Rifat Arefin</strong>, Gopeshh Subbaraj, Nicolas Gontier, Yann LeCun, Irina Rish, Ravid Shwartz-Ziv, Christopher Pal
-    pdf: https://drive.google.com/file/d/1tUomcUAxtqFzQ8wH3z9WsI9YFsrJKsGQ/view?usp=sharing
-    code: https://github.com/rarefin/SEQ_VCR
-    image: ./assets/img/seq_vcr.png
-
   - title: "Does Representation Matter? Exploring Intermediate Layers in Large Language Models"
     authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Ravid Shwartz-Ziv
     conference_short: NeurIPS
@@ -13,9 +7,15 @@ main:
     pdf: https://drive.google.com/file/d/15-5Kx4bjKnbd4DRLHClqGMhfDmp3qFoz/view?usp=sharing
     notes: Accpeted
     image: ./assets/img/representation_compression.png
+    
+  - title: "Seq-VCR: Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning"
+    authors: <strong>Md Rifat Arefin</strong>, Gopeshh Subbaraj, Nicolas Gontier, Yann LeCun, Irina Rish, Ravid Shwartz-Ziv, Christopher Pal
+    pdf: https://drive.google.com/file/d/1tUomcUAxtqFzQ8wH3z9WsI9YFsrJKsGQ/view?usp=sharing
+    code: https://github.com/rarefin/SEQ_VCR
+    image: ./assets/img/seq_vcr.png
 
   - title: "Unsupervised Concept Discovery Mitigates Spurious Correlations"
-    authors: strong>Md Rifat Arefin</strong>, Yan Zhang, Aristide Baratin, Francesco Locatello, Irina Rish, Dianbo Liu, Kenji Kawaguchi
+    authors: <strong>Md Rifat Arefin</strong>, Yan Zhang, Aristide Baratin, Francesco Locatello, Irina Rish, Dianbo Liu, Kenji Kawaguchi
     conference_short: ICML
     conference: International Conference on Machine Learning <strong>ICML</strong>, 2024
     pdf: https://arxiv.org/abs/2402.13368
