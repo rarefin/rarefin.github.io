@@ -23,6 +23,14 @@ main:
     notes: Published
     image: ./assets/img/cobalt.png
 
+  - title: "VFA: Vision Frequency Analysis of Foundation Models and Human"
+    authors: Mohammad-Javad Darvishi-Bayazi, <strong>Md Rifat Arefin</strong>, Jocelyn Faubert, Irina Rish
+    conference_short: ICML
+    conference: <strong>ICML</strong> 2024 Workshop on Foundation Models in the Wild.
+    pdf: https://openreview.net/pdf?id=06wc6xGR1A
+    notes: Published
+    image: ./assets/img/cobalt.png
+
   - title: "Continual learning with foundation models: An empirical study of latent replay"
     conference_short: COLLAs
     conference: 1st Conference on Lifelong Learning Agent <strong>COLLAs</strong>, 2022
