@@ -3,7 +3,7 @@ main:
   - title: "Layer by Layer: Uncovering Hidden Representations in Language Models"
     authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Dan Zhao, Niket Nikul Patel, Jalal Naghiyev, Yann LeCun, Ravid Shwartz-Ziv 
     conference_short: ICLR
-    conference: International Conference in Learning Representations <strong>(ICLR)</strong>, 2025.
+    conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2502.02013
     image: ./assets/img/layer_by_layer.png
     notes: Accepted with Spotlight
