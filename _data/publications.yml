@@ -1,20 +1,28 @@
 main:
 
+  - title: "Layer by Layer: Uncovering Hidden Representations in Language Models"
+    authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Dan Zhao, Niket Nikul Patel, Jalal Naghiyev, Yann LeCun, Ravid Shwartz-Ziv 
+    conference_short: ICLR
+    conference: International Conference in Learning Representations <strong>(ICLR)</strong>, 2025.
+    pdf: https://arxiv.org/pdf/2502.02013
+    image: ./assets/img/seq_vcr.png
+    notes: Accepted
+
   - title: "Seq-VCR: Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning"
     authors: <strong>Md Rifat Arefin</strong>, Gopeshh Subbaraj, Nicolas Gontier, Yann LeCun, Irina Rish, Ravid Shwartz-Ziv, Christopher Pal
     conference_short: ICLR
     conference: International Conference in Learning Representations <strong>(ICLR)</strong>, 2025.
-    pdf: https://drive.google.com/file/d/1tUomcUAxtqFzQ8wH3z9WsI9YFsrJKsGQ/view?usp=sharing
+    pdf: https://arxiv.org/pdf/2411.02344
     code: https://github.com/rarefin/SEQ_VCR
     image: ./assets/img/seq_vcr.png
-    notes: Submitted
+    notes: Published
 
   - title: "Does Representation Matter? Exploring Intermediate Layers in Large Language Models"
     authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Ravid Shwartz-Ziv
     conference_short: NeurIPS
     conference: Machine Learning and Compression Workshop @ <strong>NeurIPS</strong>, 2024
-    pdf: https://drive.google.com/file/d/15-5Kx4bjKnbd4DRLHClqGMhfDmp3qFoz/view?usp=sharing
-    notes: Accpeted
+    pdf: https://openreview.net/pdf?id=FN0tZ9pVLz
+    notes: Published
     image: ./assets/img/representation_compression.png
 
   - title: "Unsupervised Concept Discovery Mitigates Spurious Correlations"
