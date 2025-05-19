@@ -13,7 +13,12 @@ I am a Ph.D. student at Mila and University of Montreal supervised by Professor 
 <!-- - **Machine Learning:** meta-learning, incremental learning, transfer learning -->
 
 ## News
-- **[October 2024]** Started Applied Scientist Research Internship at Amazon, Seattle.
+- **[May 2025]** Our paper "Layer by Layer: Uncovering Hidden Representations in Language Models" is accepted with Spotlight @ ICML, 2025.
+- **[February 2025]** Started Research Internship at Samsung AI Lab, Montreal, Canada.
+- **[January 2025]** 1 paper submitted to ICML 2025.
+- **[January 2025]** Our paper "Seq-VCR: Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning" is accepted @ ICLR, 2025.
+- **[January 2025]** Finished Applied Scientist Research Internship at Amazon, Seattle, USA.
+- **[October 2024]** Started Applied Scientist Research Internship at Amazon, Seattle, USA.
 - **[October 2024]** Our paper on representation compression in LLMs is accepted to Compression Workshop @ NeurIPS, 2024.
 - **[October 2024]** 1 paper submitted to ICLR 2025.
 - **[June 2024]** 1 paper accepted at ICML 2024 Workshop on Foundation Models in the Wild.

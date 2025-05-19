@@ -5,8 +5,8 @@ main:
     conference_short: ICLR
     conference: International Conference in Learning Representations <strong>(ICLR)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2502.02013
-    image: ./assets/img/seq_vcr.png
-    notes: Accepted
+    image: ./assets/img/layer_by_layer.png
+    notes: Accepted with Spotlight
 
   - title: "Seq-VCR: Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning"
     authors: <strong>Md Rifat Arefin</strong>, Gopeshh Subbaraj, Nicolas Gontier, Yann LeCun, Irina Rish, Ravid Shwartz-Ziv, Christopher Pal
@@ -40,7 +40,7 @@ main:
     conference: <strong>ICML</strong> 2024 Workshop on Foundation Models in the Wild.
     pdf: https://openreview.net/pdf?id=06wc6xGR1A
     notes: Published
-    image: ./assets/img/cobalt.png
+    image: ./assets/img/avatar.png
 
   - title: "Continual learning with foundation models: An empirical study of latent replay"
     conference_short: COLLAs
