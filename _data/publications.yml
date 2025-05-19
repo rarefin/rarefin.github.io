@@ -26,11 +26,19 @@ main:
     image: ./assets/img/representation_compression.png
 
   - title: "Unsupervised Concept Discovery Mitigates Spurious Correlations"
-    authors: strong>Md Rifat Arefin</strong>, Yan Zhang, Aristide Baratin, Francesco Locatello, Irina Rish, Dianbo Liu, Kenji Kawaguchi
+    authors: <strong>Md Rifat Arefin</strong>, Yan Zhang, Aristide Baratin, Francesco Locatello, Irina Rish, Dianbo Liu, Kenji Kawaguchi
     conference_short: ICML
     conference: International Conference on Machine Learning <strong>ICML</strong>, 2024
     pdf: https://arxiv.org/abs/2402.13368
     code: https://github.com/rarefin/CoBalT
+    notes: Published
+    image: ./assets/img/cobalt.png
+
+  - title: "VFA: Vision Frequency Analysis of Foundation Models and Human"
+    authors: Mohammad-Javad Darvishi-Bayazi, <strong>Md Rifat Arefin</strong>, Jocelyn Faubert, Irina Rish
+    conference_short: ICML
+    conference: <strong>ICML</strong> 2024 Workshop on Foundation Models in the Wild.
+    pdf: https://openreview.net/pdf?id=06wc6xGR1A
     notes: Published
     image: ./assets/img/cobalt.png
 
@@ -42,7 +50,7 @@ main:
     image: ./assets/img/avatar.png
 
   - title: "AvaTr: One-Shot Speaker Extraction with Transformers"
-    authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Ravid Shwartz-Ziv
+    authors: Shell Xu Hu, <strong>Md Rifat Arefin</strong>, Viet-Nhat Nguyen, Alish Dipani, Xaq Pitkow, Andreas Savas Tolias
     conference_short: Interspeech
     conference: International Speech Conference <strong>Interspeech</strong>, 2021
     pdf: https://arxiv.org/pdf/2105.00609.pdf
