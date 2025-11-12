@@ -4,9 +4,11 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at Mila and University of Montreal supervised by Professor Irina Rish. My research focuses on representation learning, and generalization in large-scale systems. My goal is to understand how large-scale deep learning systems are very useful in compressing data and learning useful abstract representations.
+I am a Ph.D. student at Mila and University of Montreal supervised by Professor Irina Rish. In the past, I had worked with Yoshua Bengio and Yann LeCun. 
 
-I had been fortunate to work with Yoshua Bengio and Yann LeCun. I am currently studying how architectural and optimization-induced inductive bias (Simplicity Bias) in transformers shape the geometry of representations, aiming to improve generalization and multi-step reasoning. I am also explroing how transformers learn hierarchichal memory using compression.
+My research focuses on representation learning, and generalization in large-scale systems. My goal is to understand how large-scale deep learning systems are very useful in compressing data and learning useful abstract representations. I am currently studying how architectural and optimization-induced inductive bias (Simplicity Bias) in transformers shape the geometry of representations, aiming to improve generalization and multi-step reasoning. I am also explroing how transformers learn hierarchichal memory using compression.
+
+Long before, I worked on alternative algebra like complex numbers and quaternion to build neural networks. In industry, I’ve interned at Amazon, Samsung, ServiceNow, Recursion and am currently interning at Meta.
 
 
 
