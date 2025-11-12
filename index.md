@@ -4,16 +4,22 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at Mila and University of Montreal supervised by Professor Irina Rish. My research focuses on representation learning, abstract concept learning, and generalization in large-scale systems. My goal is to understand how large-scale deep learning systems are very useful in compressing data and learning useful abstract representations, especially in un/self-supervised manner. I am also interested in making these models robust in data distribution shifts, similar to human beings.
+I am a Ph.D. student at Mila and University of Montreal supervised by Professor Irina Rish. My research focuses on representation learning, and generalization in large-scale systems. My goal is to understand how large-scale deep learning systems are very useful in compressing data and learning useful abstract representations.
+
+I had been fortunate to work with Yoshua Bengio and Yann LeCun. I am currently how architectural and optimization-induced inductive biases in transformers shape the geometry of representations, aiming to improve generalization and multi-step reasoning. I am also explroing how transformers learn hierarchichal memory using compression.
+
+
 
 ## Research Interests
 
-- Foundation Model, Representation Learning, Transfer Learning, Reasoning, Information Theory
+- Representation Learning, Hierarchichal Memory Learning, Architecture, Optimization, Random Matrix Theory, Information Theory, Tensor Product Represention Theory
 <!-- - - **Foundation Model:** Foundation Model, Representation Learning, Transfer Learning, Reasoning, Information Theory  -->
 <!-- - **Machine Learning:** meta-learning, incremental learning, transfer learning -->
 
 ## News
-- **[May 2025]** Our paper "Layer by Layer: Uncovering Hidden Representations in Language Models" is accepted with Spotlight @ ICML, 2025.
+- **[Augut 2025]** Started Internship at Meta.
+- **[May 2025]** Our paper "Layer by Layer: Uncovering Hidden Representations in Language Models" is accepted with Spotlight Oral @ ICML, 2025.
+- **[April 2025]** Attended ICLR 2025 and presented our poster on Seq-VCR.
 - **[February 2025]** Started Research Internship at Samsung AI Lab, Montreal, Canada.
 - **[January 2025]** 1 paper submitted to ICML 2025.
 - **[January 2025]** Our paper "Seq-VCR: Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning" is accepted @ ICLR, 2025.
@@ -21,6 +27,7 @@ I am a Ph.D. student at Mila and University of Montreal supervised by Professor 
 - **[October 2024]** Started Applied Scientist Research Internship at Amazon, Seattle, USA.
 - **[October 2024]** Our paper on representation compression in LLMs is accepted to Compression Workshop @ NeurIPS, 2024.
 - **[October 2024]** 1 paper submitted to ICLR 2025.
+- **[July 2024]** Attended ICML 2024 and presented our poster.
 - **[June 2024]** 1 paper accepted at ICML 2024 Workshop on Foundation Models in the Wild.
 - **[May 2024]** Started as Visiting Researcher at ServiceNow Research.
 - **[May 2024]** Our paper on Spurious Correlation is accepted at ICML, 2024.
