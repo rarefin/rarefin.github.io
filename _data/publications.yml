@@ -4,17 +4,17 @@ main:
     authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Dan Zhao, Niket Nikul Patel, Jalal Naghiyev, Yann LeCun, Ravid Shwartz-Ziv 
     conference_short: ICLR
     conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2025.
-    pdf:  https://arxiv.org/pdf/2502.02013
-    image: ./assets/img/layer_by_layer.png
-    notes: Published with Spotlight
+    pdf:  assets/files/2502.02013v2.pdf #https://arxiv.org/pdf/2502.02013
+    image: assets/img/layer_by_layer.png
+    notes: Accepted with Spotlight
 
   - title: "Seq-VCR: Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning"
     authors: <strong>Md Rifat Arefin</strong>, Gopeshh Subbaraj, Nicolas Gontier, Yann LeCun, Irina Rish, Ravid Shwartz-Ziv, Christopher Pal
     conference_short: ICLR
     conference: International Conference in Learning Representations <strong>(ICLR)</strong>, 2025.
-    pdf: https://arxiv.org/pdf/2411.02344
+    pdf: assets/files/2411.02344v2.pdf #https://arxiv.org/pdf/2411.02344
     code: https://github.com/rarefin/SEQ_VCR
-    image: ./assets/img/seq_vcr.png
+    image: assets/img/seq_vcr.png
     notes: Published
 
   - title: "Does Representation Matter? Exploring Intermediate Layers in Large Language Models"
@@ -23,7 +23,7 @@ main:
     conference: Machine Learning and Compression Workshop @ <strong>NeurIPS</strong>, 2024
     pdf: https://openreview.net/pdf?id=FN0tZ9pVLz
     notes: Published
-    image: ./assets/img/representation_compression.png
+    image: assets/img/representation_compression.png
 
   - title: "Unsupervised Concept Discovery Mitigates Spurious Correlations"
     authors: <strong>Md Rifat Arefin</strong>, Yan Zhang, Aristide Baratin, Francesco Locatello, Irina Rish, Dianbo Liu, Kenji Kawaguchi
@@ -32,7 +32,7 @@ main:
     pdf: https://arxiv.org/abs/2402.13368
     code: https://github.com/rarefin/CoBalT
     notes: Published
-    image: ./assets/img/cobalt.png
+    image: assets/img/cobalt.png
 
   - title: "VFA: Vision Frequency Analysis of Foundation Models and Human"
     authors: Mohammad-Javad Darvishi-Bayazi, <strong>Md Rifat Arefin</strong>, Jocelyn Faubert, Irina Rish
@@ -40,7 +40,7 @@ main:
     conference: <strong>ICML</strong> 2024 Workshop on Foundation Models in the Wild.
     pdf: https://openreview.net/pdf?id=06wc6xGR1A
     notes: Published
-    image: ./assets/img/avatar.png
+    image: assets/img/avatar.png
 
   - title: "Continual learning with foundation models: An empirical study of latent replay"
     conference_short: COLLAs
@@ -55,7 +55,7 @@ main:
     conference: International Speech Conference <strong>Interspeech</strong>, 2021
     pdf: https://arxiv.org/pdf/2105.00609.pdf
     notes: Published
-    image: ./assets/img/avatar.png
+    image: assets/img/avatar.png
 
   - title: "Multi-Image Super-Resolution for Remote Sensing using Deep Recurrent Networks"
     authors: Md Rifat Arefin, Vincent Michalski, Pierre-Luc St-Charles, Alfredo Kalaitzis, Sookyung Kim, Samira E. Kahou, Yoshua Bengio
@@ -64,4 +64,4 @@ main:
     pdf: https://openaccess.thecvf.com/content_CVPRW_2020/papers/w11/Arefin_Multi-Image_Super-Resolution_for_Remote_Sensing_Using_Deep_Recurrent_Networks_CVPRW_2020_paper.pdf
     code: https://github.com/rarefin/MISR-GRU
     notes: Published
-    image: ./assets/img/avatar.png
+    image: assets/img/avatar.png
