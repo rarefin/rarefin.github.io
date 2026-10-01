@@ -1,0 +1,25 @@
+reviewer:
+  - name: NeurIPS
+    years: "2024, 2025, 2026"
+    url: https://neurips.cc/
+  - name: ICML
+    years: "2025, 2026"
+    url: https://icml.cc/
+  - name: ICLR
+    years: "2025, 2026, 2027"
+    url: https://iclr.cc/
+  - name: AISTATS
+    years: "2024"
+    url: https://aistats.org/
+
+awards:
+  - text: "Notable Reviewer, ICLR 2025"
+    url: https://iclr.cc/Conferences/2025/Reviewers
+  - text: "IVADO Ph.D. Excellence Scholarship (2021–2024)"
+    url: https://ivado.ca/en/scholarships-and-grants/phd-excellence-scholarships/
+  - text: "1st runner-up, PROBA-V Super-Resolution Challenge, European Space Agency (team “rarefin”)"
+    url: https://kelvins.esa.int/proba-v-super-resolution/leaderboard/results
+  - text: "Travel grant, Deep Learning and Reinforcement Learning Summer School 2019"
+    url: https://dlrl.ca/
+  - text: "President's Scholarship, Master's studies"
+  - text: "IEEE BDS Best Paper Award, International Conference on Computer and Information Technology (ICCIT) 2015"

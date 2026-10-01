@@ -1,0 +1,17 @@
+{%- assign n = site.news_visible | default: 6 -%}
+<h2 id="news">News</h2>
+<ul class="news">
+{%- for item in site.data.news limit: n %}
+<li><span class="news-date">{{ item.date | date: "%b %Y" }}</span><span class="news-text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span></li>
+{%- endfor %}
+</ul>
+{%- if site.data.news.size > n %}
+<details class="news-more">
+<summary>Earlier news</summary>
+<ul class="news">
+{%- for item in site.data.news offset: n %}
+<li><span class="news-date">{{ item.date | date: "%b %Y" }}</span><span class="news-text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span></li>
+{%- endfor %}
+</ul>
+</details>
+{%- endif %}

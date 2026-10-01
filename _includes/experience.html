@@ -1,0 +1,6 @@
+<h2 id="experience">Industry experience</h2>
+<ul class="experience">
+{%- for e in site.data.experience %}
+<li><span class="exp-org">{{ e.org }}</span>, {{ e.role }} <span class="exp-when">{{ e.when }}</span></li>
+{%- endfor %}
+</ul>

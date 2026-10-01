@@ -1,0 +1,39 @@
+{%- comment -%}
+Renders one publication. Params: pub (required), teaser (true/false).
+{%- endcomment -%}
+{%- assign p = include.pub -%}
+{%- assign me = "Md Rifat Arefin" -%}
+{%- assign me_bold = "<strong>Md Rifat Arefin</strong>" -%}
+{%- if p.arxiv and p.arxiv != "" -%}{%- assign main_link = p.arxiv -%}
+{%- elsif p.openreview and p.openreview != "" -%}{%- assign main_link = p.openreview -%}
+{%- elsif p.pdf and p.pdf != "" -%}{%- assign main_link = p.pdf -%}
+{%- else -%}{%- assign main_link = p.page -%}{%- endif -%}
+<li class="pub{% if include.teaser %} pub--teaser{% endif %}">
+{%- if include.teaser %}
+<div class="pub-media">
+{%- if p.image %}
+<img src="{{ p.image }}" alt="Figure from {{ p.title | escape }}" loading="lazy">
+{%- else %}
+<div class="pub-media-empty" aria-hidden="true">{{ p.venue_short | default: p.year }}</div>
+{%- endif %}
+</div>
+{%- endif %}
+<div class="pub-body">
+<div class="pub-title"><a href="{{ main_link }}" target="_blank" rel="noopener">{{ p.title }}</a></div>
+<div class="pub-authors">{{ p.authors | replace: me, me_bold }}</div>
+<div class="pub-venue"><em>{{ p.venue }}</em>
+{%- if p.award %} <span class="pub-award">{{ p.award }}</span>{% endif %}
+{%- if p.note %} <span class="pub-note">{{ p.note }}</span>{% endif %}
+</div>
+{%- if include.teaser and p.tldr %}
+<p class="pub-tldr">{{ p.tldr }}</p>
+{%- endif %}
+<div class="pub-links">
+{%- if p.arxiv and p.arxiv != "" %}<a href="{{ p.arxiv }}" target="_blank" rel="noopener">arXiv</a>{% endif %}
+{%- if p.openreview and p.openreview != "" %}<a href="{{ p.openreview }}" target="_blank" rel="noopener">OpenReview</a>{% endif %}
+{%- if p.pdf and p.pdf != "" %}<a href="{{ p.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+{%- if p.code %}<a href="{{ p.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+{%- if p.page %}<a href="{{ p.page }}" target="_blank" rel="noopener">Page</a>{% endif %}
+</div>
+</div>
+</li>

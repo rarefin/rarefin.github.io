@@ -1,0 +1,56 @@
+# Newest first. `date` is YYYY-MM-DD (day is not displayed). Markdown is allowed in `text`.
+# The first `news_visible` items (see _config.yml) show on the page; the rest go under "Earlier news".
+
+- date: 2026-10-01
+  text: "New preprint from my Meta internship: [Delayed Effects of Temporary Weight Decay in Muon Pretraining](assets/files/papers/muon-temporary-weight-decay.pdf)."
+
+- date: 2026-09-29
+  text: "[When Redundant Probes Help in Strategic Auditing](assets/files/papers/redundant-probes-auditing.pdf) accepted at the [EvoRobust Workshop](https://liuj-2023.github.io/EvoRobust-NeurIPS2026/) @ **NeurIPS 2026**."
+
+- date: 2026-09-01   # TODO: check month
+  text: "[CP-MLPs](assets/files/papers/cp-mlps.pdf), a tensor-rank theory of tied vs. untied MLP blocks, accepted at **NeurIPS 2026**."
+
+- date: 2026-09-01   # TODO: check month
+  text: "TT-Delta (KV-cache compression) accepted at the Efficient Reasoning Workshop @ **COLM 2026**."
+
+- date: 2026-06-01
+  text: "Started a second research internship at **Meta**."
+
+- date: 2026-01-01
+  text: "Finished my research internship at **Meta**."
+
+- date: 2025-08-01
+  text: "Started a research internship at **Meta**."
+
+- date: 2025-05-01
+  text: "[Layer by Layer](https://arxiv.org/abs/2502.02013) accepted at **ICML 2025** as a spotlight."
+
+- date: 2025-04-01
+  text: "Presented Seq-VCR at **ICLR 2025**."
+
+- date: 2025-02-01
+  text: "Started a research internship at **Samsung AI Lab**, Montreal."
+
+- date: 2025-01-01
+  text: "[Seq-VCR](https://arxiv.org/abs/2411.02344) accepted at **ICLR 2025**."
+
+- date: 2024-10-01
+  text: "Started an Applied Scientist internship at **Amazon**, Seattle."
+
+- date: 2024-10-01
+  text: "Paper on representation compression in LLMs accepted at the Compression Workshop @ **NeurIPS 2024**."
+
+- date: 2024-06-01
+  text: "Paper accepted at the Foundation Models in the Wild Workshop @ **ICML 2024**."
+
+- date: 2024-05-01
+  text: "Joined **ServiceNow Research** as a visiting researcher."
+
+- date: 2024-05-01
+  text: "[CoBalT](https://arxiv.org/abs/2402.13368), on mitigating spurious correlations, accepted at **ICML 2024**."
+
+- date: 2024-01-01
+  text: "Passed my Ph.D. candidacy exam."
+
+- date: 2023-06-01
+  text: "Started an internship at **Recursion Pharmaceuticals**."

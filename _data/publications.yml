@@ -1,67 +1,143 @@
-main:
+# Publications, newest first. One entry per paper.
+#
+# Fields
+#   title, authors, year           required. Your name is bolded automatically.
+#   venue                          full venue, e.g. "NeurIPS 2026" or "Efficient Reasoning Workshop @ COLM 2026"
+#   venue_short                    shown in the image box when a paper has no teaser image
+#   status                         conference | workshop | preprint   (for your bookkeeping; not displayed)
+#   award                          e.g. Spotlight / Oral. The only thing shown in red.
+#   selected                       true -> appears in "Selected publications" (keep it to ~5-6)
+#   tldr                           one sentence, plain language, shown under selected papers
+#   arxiv / pdf / code / page / openreview   links. Title links to arxiv, then openreview, then pdf.
+#   image                          teaser image for selected papers (webp, ~900px wide)
+#   note                           small extra text, e.g. "Work done at Meta"
+#
+# Pre-arXiv: put the PDF in assets/files/papers/ and set `pdf:`. When arXiv approves,
+# add `arxiv:` — nothing else needs to change.
 
-  - title: "Layer by Layer: Uncovering Hidden Representations in Language Models"
-    authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Dan Zhao, Niket Nikul Patel, Jalal Naghiyev, Yann LeCun, Ravid Shwartz-Ziv 
-    conference_short: ICLR
-    conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2025.
-    pdf:  assets/files/2502.02013v2.pdf #https://arxiv.org/pdf/2502.02013
-    image: assets/img/layer_by_layer.png
-    notes: Accepted with Spotlight
+- title: "Delayed Effects of Temporary Weight Decay in Muon Pretraining"
+  authors: Md Rifat Arefin, Ravid Shwartz-Ziv, Ernie Chang, Chinnadhurai Sankar, Rylan Conway, Aristide Baratin, Irina Rish, Adithya Sagar, Patrick Huber
+  year: 2026
+  venue: Preprint, 2026
+  venue_short: Preprint
+  status: preprint
+  selected: true
+  tldr: "A weight-decay window that is 0.26 nats worse when it ends finishes 0.028 nats better at 1.4B, because the weight-norm deficit it leaves keeps relative steps larger long after removal."
+  pdf: assets/files/papers/muon-temporary-weight-decay.pdf
+  arxiv:
+  image: assets/img/muon_temporary_decay.webp
+  note: Work done at Meta
 
-  - title: "Seq-VCR: Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning"
-    authors: <strong>Md Rifat Arefin</strong>, Gopeshh Subbaraj, Nicolas Gontier, Yann LeCun, Irina Rish, Ravid Shwartz-Ziv, Christopher Pal
-    conference_short: ICLR
-    conference: International Conference in Learning Representations <strong>(ICLR)</strong>, 2025.
-    pdf: assets/files/2411.02344v2.pdf #https://arxiv.org/pdf/2411.02344
-    code: https://github.com/rarefin/SEQ_VCR
-    image: assets/img/seq_vcr.png
-    notes: Published
+- title: "CP-MLPs: A Tensor-Rank Theory of Tied and Untied MLP Blocks"
+  authors: Md Rifat Arefin, Farzaneh Heidari, Irina Rish, Guillaume Rabusseau
+  year: 2026
+  venue: Neural Information Processing Systems (NeurIPS), 2026
+  venue_short: NeurIPS
+  status: conference
+  selected: true
+  tldr: "Untying the detector and value directions (SwiGLU vs. ReLU²) gives exact width separations: untied units need fewer channels for indefinite and role-asymmetric interactions; tied units match pure powers."
+  pdf: assets/files/papers/cp-mlps.pdf
+  arxiv:
+  image: assets/img/cp_mlps.webp
 
-  - title: "Does Representation Matter? Exploring Intermediate Layers in Large Language Models"
-    authors: Oscar Skean, <strong>Md Rifat Arefin</strong>, Ravid Shwartz-Ziv
-    conference_short: NeurIPS
-    conference: Machine Learning and Compression Workshop @ <strong>NeurIPS</strong>, 2024
-    pdf: https://openreview.net/pdf?id=FN0tZ9pVLz
-    notes: Published
-    image: assets/img/representation_compression.png
+# Set selected: true to feature it.
+- title: "When Redundant Probes Help in Strategic Auditing"
+  authors: Md Rifat Arefin, Irina Rish
+  year: 2026
+  venue: EvoRobust Workshop @ NeurIPS, 2026
+  venue_short: NeurIPS-W
+  status: workshop
+  tldr: "Against a strategic agent, diverse (DPP) audits protect the dominant subspace, while uniform sampling of near-duplicate probes covers weakly measured residual directions; the better policy depends on exploit geometry."
+  pdf: assets/files/papers/redundant-probes-auditing.pdf
+  page: https://liuj-2023.github.io/EvoRobust-NeurIPS2026/
 
-  - title: "Unsupervised Concept Discovery Mitigates Spurious Correlations"
-    authors: <strong>Md Rifat Arefin</strong>, Yan Zhang, Aristide Baratin, Francesco Locatello, Irina Rish, Dianbo Liu, Kenji Kawaguchi
-    conference_short: ICML
-    conference: International Conference on Machine Learning <strong>ICML</strong>, 2024
-    pdf: https://arxiv.org/abs/2402.13368
-    code: https://github.com/rarefin/CoBalT
-    notes: Published
-    image: assets/img/cobalt.png
+# TODO: replace title + authors with the exact ones from OpenReview, and add a teaser image.
+- title: "TT-Delta: Dual-Channel KV-Cache Compression with Tensor-Train and Delta-Rule State"
+  authors: Md Rifat Arefin
+  year: 2026
+  venue: Efficient Reasoning Workshop @ COLM, 2026
+  venue_short: COLM-W
+  status: workshop
+  selected: true
+  tldr: "A KV-cache codec that pairs a tensor-train structural channel with a delta-rule associative channel."
+  openreview: https://openreview.net/forum?id=bnreIEZxps
+  pdf: https://openreview.net/pdf?id=bnreIEZxps
 
-  - title: "VFA: Vision Frequency Analysis of Foundation Models and Human"
-    authors: Mohammad-Javad Darvishi-Bayazi, <strong>Md Rifat Arefin</strong>, Jocelyn Faubert, Irina Rish
-    conference_short: ICML
-    conference: <strong>ICML</strong> 2024 Workshop on Foundation Models in the Wild.
-    pdf: https://openreview.net/pdf?id=06wc6xGR1A
-    notes: Published
-    image: assets/img/avatar.png
+- title: "Layer by Layer: Uncovering Hidden Representations in Language Models"
+  authors: Oscar Skean, Md Rifat Arefin, Dan Zhao, Niket Nikul Patel, Jalal Naghiyev, Yann LeCun, Ravid Shwartz-Ziv
+  year: 2025
+  venue: International Conference on Machine Learning (ICML), 2025
+  venue_short: ICML
+  status: conference
+  award: Spotlight   # TODO: your old news said "Spotlight Oral" — use whichever is correct
+  selected: true
+  tldr: "Intermediate layers often give better features than the final layer; we explain when and why using information-theoretic and geometric metrics."
+  arxiv: https://arxiv.org/abs/2502.02013
+  pdf: assets/files/2502.02013v2.pdf
+  image: assets/img/layer_by_layer.webp
 
-  - title: "Continual learning with foundation models: An empirical study of latent replay"
-    conference_short: COLLAs
-    conference: 1st Conference on Lifelong Learning Agent <strong>COLLAs</strong>, 2022
-    pdf: https://proceedings.mlr.press/v199/ostapenko22a/ostapenko22a.pdf
-    notes: Published
-    image: ./assets/img/avatar.png
+- title: "Seq-VCR: Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning"
+  authors: Md Rifat Arefin, Gopeshh Subbaraj, Nicolas Gontier, Yann LeCun, Irina Rish, Ravid Shwartz-Ziv, Christopher Pal
+  year: 2025
+  venue: International Conference on Learning Representations (ICLR), 2025
+  venue_short: ICLR
+  status: conference
+  selected: true
+  tldr: "Representation collapse in intermediate layers limits multi-step arithmetic reasoning; a variance-covariance regularizer prevents it."
+  arxiv: https://arxiv.org/abs/2411.02344
+  pdf: assets/files/2411.02344v2.pdf
+  code: https://github.com/rarefin/SEQ_VCR
+  image: assets/img/seq_vcr.webp
 
-  - title: "AvaTr: One-Shot Speaker Extraction with Transformers"
-    authors: Shell Xu Hu, <strong>Md Rifat Arefin</strong>, Viet-Nhat Nguyen, Alish Dipani, Xaq Pitkow, Andreas Savas Tolias
-    conference_short: Interspeech
-    conference: International Speech Conference <strong>Interspeech</strong>, 2021
-    pdf: https://arxiv.org/pdf/2105.00609.pdf
-    notes: Published
-    image: assets/img/avatar.png
+- title: "Does Representation Matter? Exploring Intermediate Layers in Large Language Models"
+  authors: Oscar Skean, Md Rifat Arefin, Ravid Shwartz-Ziv
+  year: 2024
+  venue: Machine Learning and Compression Workshop @ NeurIPS, 2024
+  venue_short: NeurIPS-W
+  status: workshop
+  openreview: https://openreview.net/forum?id=FN0tZ9pVLz
+  pdf: https://openreview.net/pdf?id=FN0tZ9pVLz
+  image: assets/img/representation_compression.webp
 
-  - title: "Multi-Image Super-Resolution for Remote Sensing using Deep Recurrent Networks"
-    authors: Md Rifat Arefin, Vincent Michalski, Pierre-Luc St-Charles, Alfredo Kalaitzis, Sookyung Kim, Samira E. Kahou, Yoshua Bengio
-    conference_short: CVPR
-    conference: EARTHVISION Workshop @ <strong>CVPR</strong>, 2020
-    pdf: https://openaccess.thecvf.com/content_CVPRW_2020/papers/w11/Arefin_Multi-Image_Super-Resolution_for_Remote_Sensing_Using_Deep_Recurrent_Networks_CVPRW_2020_paper.pdf
-    code: https://github.com/rarefin/MISR-GRU
-    notes: Published
-    image: assets/img/avatar.png
+- title: "Unsupervised Concept Discovery Mitigates Spurious Correlations"
+  authors: Md Rifat Arefin, Yan Zhang, Aristide Baratin, Francesco Locatello, Irina Rish, Dianbo Liu, Kenji Kawaguchi
+  year: 2024
+  venue: International Conference on Machine Learning (ICML), 2024
+  venue_short: ICML
+  status: conference
+  selected: true
+  tldr: "Object-centric concept discovery groups training data without group labels, improving worst-group accuracy under spurious correlations."
+  arxiv: https://arxiv.org/abs/2402.13368
+  code: https://github.com/rarefin/CoBalT
+  image: assets/img/cobalt.webp
+
+- title: "VFA: Vision Frequency Analysis of Foundation Models and Human"
+  authors: Mohammad-Javad Darvishi-Bayazi, Md Rifat Arefin, Jocelyn Faubert, Irina Rish
+  year: 2024
+  venue: Workshop on Foundation Models in the Wild @ ICML, 2024
+  status: workshop
+  openreview: https://openreview.net/forum?id=06wc6xGR1A
+  pdf: https://openreview.net/pdf?id=06wc6xGR1A
+
+- title: "Continual Learning with Foundation Models: An Empirical Study of Latent Replay"
+  authors: Oleksiy Ostapenko, Timothee Lesort, Pau Rodriguez, Md Rifat Arefin, Arthur Douillard, Irina Rish, Laurent Charlin
+  year: 2022
+  venue: Conference on Lifelong Learning Agents (CoLLAs), 2022
+  status: conference
+  pdf: https://proceedings.mlr.press/v199/ostapenko22a/ostapenko22a.pdf
+  page: https://proceedings.mlr.press/v199/ostapenko22a.html
+
+- title: "AvaTr: One-Shot Speaker Extraction with Transformers"
+  authors: Shell Xu Hu, Md Rifat Arefin, Viet-Nhat Nguyen, Alish Dipani, Xaq Pitkow, Andreas Savas Tolias
+  year: 2021
+  venue: Interspeech, 2021
+  status: conference
+  arxiv: https://arxiv.org/abs/2105.00609
+
+- title: "Multi-Image Super-Resolution for Remote Sensing using Deep Recurrent Networks"
+  authors: Md Rifat Arefin, Vincent Michalski, Pierre-Luc St-Charles, Alfredo Kalaitzis, Sookyung Kim, Samira E. Kahou, Yoshua Bengio
+  year: 2020
+  venue: EarthVision Workshop @ CVPR, 2020
+  status: workshop
+  pdf: https://openaccess.thecvf.com/content_CVPRW_2020/papers/w11/Arefin_Multi-Image_Super-Resolution_for_Remote_Sensing_Using_Deep_Recurrent_Networks_CVPRW_2020_paper.pdf
+  code: https://github.com/rarefin/MISR-GRU
