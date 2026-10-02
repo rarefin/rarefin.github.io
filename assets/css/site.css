@@ -24,6 +24,7 @@
   }
 }
 
+section h1, section h2, section h3 { font-weight: 600; }
 section h2 { margin-top: 2.2rem; }
 section h2:first-child { margin-top: 0; }
 
@@ -184,3 +185,6 @@ ul.experience li, ul.awards li { margin: 0.15rem 0; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
+
+/* Email in the sidebar: match the body font instead of the theme's monospace */
+email { font-family: inherit; font-size: 15px; }

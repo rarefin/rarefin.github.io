@@ -14,9 +14,13 @@
     <meta property="og:description" content="{{ site.description | strip }}">
     {% if site.url %}<meta property="og:url" content="{{ site.url }}/">{% endif %}
     <meta name="twitter:card" content="summary">
+    {% if site.url and site.og_image %}<meta property="og:image" content="{{ site.url }}/{{ site.og_image }}">
+    <meta property="og:image:alt" content="Photo of {{ site.title }}">
+    <meta name="twitter:image" content="{{ site.url }}/{{ site.og_image }}">{% endif %}
 
     <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
+    <link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png">
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>

@@ -1,11 +1,11 @@
 # ---------------------------------------------------------------------------
 # Basic information
 # ---------------------------------------------------------------------------
-title: Md Rifat Arefin
+title: Rifat Arefin
 position: Ph.D. Candidate
 affiliation: Mila & Université de Montréal
 affiliation_link: https://mila.quebec/en
-email: rifat.arefin@mila.quebec
+email: rifat.arefin515@gmail.com
 
 # One line shown under your name in the sidebar. Delete or leave empty to hide.
 status_note: "On the job market for research scientist roles"
@@ -16,10 +16,10 @@ status_note: "On the job market for research scientist roles"
 # ---------------------------------------------------------------------------
 url: https://rarefin.github.io
 description: >-
-  Md Rifat Arefin — Ph.D. candidate at Mila and Université de Montréal working on
+  Rifat Arefin — Ph.D. candidate at Mila and Université de Montréal working on
   representation learning, the expressivity of transformer MLP blocks, and
   optimization dynamics in LLM pretraining.
-keywords: Md Rifat Arefin, Mila, machine learning, representation learning, transformers, LLM pretraining, Muon, tensor decomposition
+keywords: Rifat Arefin, Md Rifat Arefin, Mila, machine learning, representation learning, transformers, LLM pretraining, Muon, tensor decomposition
 
 # ---------------------------------------------------------------------------
 # Links
@@ -33,16 +33,17 @@ twitter: https://twitter.com/rarefin15
 # ---------------------------------------------------------------------------
 # Images
 # ---------------------------------------------------------------------------
-avatar: ./assets/img/avatar.png   # TODO: replace with a real headshot (square, ~400px)
+avatar: ./assets/img/avatar.jpg
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
+og_image: assets/img/avatar.jpg   # image shown when the link is shared (Slack, LinkedIn, email)
 
 # ---------------------------------------------------------------------------
 # Display options
 # ---------------------------------------------------------------------------
 news_visible: 6          # news items shown before "Earlier news"
 auto_dark_mode: true
-font: "Serif"            # or "Sans Serif"
+font: "Serif"            # keep as is: loads assets/css/font.css (Source Sans 3)
 
 # Analytics: the old UA-... ID stopped working in 2023. Add a GA4 ID (G-XXXXXXX) to enable.
 # google_analytics_ga4: G-XXXXXXXXXX
