@@ -17,9 +17,9 @@ status_note: "On the job market for research scientist roles"
 url: https://rarefin.github.io
 description: >-
   Rifat Arefin — Ph.D. candidate at Mila and Université de Montréal working on
-  representation learning, the expressivity of transformer MLP blocks, and
-  optimization dynamics in LLM pretraining.
-keywords: Rifat Arefin, Md Rifat Arefin, Mila, machine learning, representation learning, transformers, LLM pretraining, Muon, tensor decomposition
+  how large language models learn: optimization, architecture, data attribution
+  and representations.
+keywords: Rifat Arefin, Md Rifat Arefin, Mila, machine learning, large language models, LLM pretraining, data attribution, representation learning, transformers, LLM pretraining, Muon, tensor decomposition
 
 # ---------------------------------------------------------------------------
 # Links

@@ -23,10 +23,22 @@
   status: preprint
   selected: true
   tldr: "A weight-decay window that is 0.26 nats worse when it ends finishes 0.028 nats better at 1.4B, because the weight-norm deficit it leaves keeps relative steps larger long after removal."
-  pdf: assets/files/papers/muon-temporary-weight-decay.pdf
-  arxiv:
+  arxiv: https://arxiv.org/abs/2611.17876
+  pdf: https://arxiv.org/pdf/2611.17876
   image: assets/img/muon_temporary_decay.webp
   note: Work done at Meta
+
+# TODO: add a teaser image to feature it with a figure.
+- title: "Tensor Network Datamodels for Training Data Attribution"
+  authors: Farzaneh Heidari, Md Rifat Arefin, Louis Jaburi, Guillaume Rabusseau
+  year: 2026
+  venue: Preprint, 2026
+  venue_short: Preprint
+  status: preprint
+  selected: true
+  tldr: "Data attribution that captures how groups of training examples interact, where they reinforce or duplicate each other, instead of scoring each example on its own."
+  arxiv: https://arxiv.org/abs/2610.24721
+  pdf: https://arxiv.org/pdf/2610.24721
 
 - title: "CP-MLPs: A Tensor-Rank Theory of Tied and Untied MLP Blocks"
   authors: Md Rifat Arefin, Farzaneh Heidari, Irina Rish, Guillaume Rabusseau
@@ -36,8 +48,9 @@
   status: conference
   selected: true
   tldr: "Untying the detector and value directions (SwiGLU vs. ReLU²) gives exact width separations: untied units need fewer channels for indefinite and role-asymmetric interactions; tied units match pure powers."
-  pdf: assets/files/papers/cp-mlps.pdf
-  arxiv:
+  arxiv: https://arxiv.org/abs/2611.13647
+  pdf: https://arxiv.org/pdf/2611.13647
+  code: https://github.com/rarefin/CP-MLPs
   image: assets/img/cp_mlps.webp
 
 # Set selected: true to feature it.
@@ -105,7 +118,7 @@
   venue: International Conference on Machine Learning (ICML), 2024
   venue_short: ICML
   status: conference
-  selected: true
+  selected: false
   tldr: "Object-centric concept discovery groups training data without group labels, improving worst-group accuracy under spurious correlations."
   arxiv: https://arxiv.org/abs/2402.13368
   code: https://github.com/rarefin/CoBalT

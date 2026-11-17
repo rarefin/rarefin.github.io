@@ -1,14 +1,23 @@
 # Newest first. `date` is YYYY-MM-DD (day is not displayed). Markdown is allowed in `text`.
 # The first `news_visible` items (see _config.yml) show on the page; the rest go under "Earlier news".
 
-- date: 2026-10-01
-  text: "New preprint from my Meta internship: [Delayed Effects of Temporary Weight Decay in Muon Pretraining](assets/files/papers/muon-temporary-weight-decay.pdf)."
+- date: 2026-11-16
+  text: "Finished my second research internship at **Meta**."
+
+- date: 2026-11-16   # TODO: set to the day it appeared on arXiv
+  text: "New preprint from my Meta internship, now on arXiv: [Delayed Effects of Temporary Weight Decay in Muon Pretraining](https://arxiv.org/abs/2611.17876)."
+
+- date: 2026-11-01
+  text: "[CP-MLPs](https://arxiv.org/abs/2611.13647) is now on arXiv, with [code](https://github.com/rarefin/CP-MLPs)."
+
+- date: 2026-10-01   # TODO: check month
+  text: "New preprint on data attribution with tensor-network datamodels, capturing how training examples interact: [arXiv](https://arxiv.org/abs/2610.24721)."
 
 - date: 2026-09-29
   text: "[When Redundant Probes Help in Strategic Auditing](assets/files/papers/redundant-probes-auditing.pdf) accepted at the [EvoRobust Workshop](https://liuj-2023.github.io/EvoRobust-NeurIPS2026/) @ **NeurIPS 2026**."
 
 - date: 2026-09-01   # TODO: check month
-  text: "[CP-MLPs](assets/files/papers/cp-mlps.pdf), a tensor-rank theory of tied vs. untied MLP blocks, accepted at **NeurIPS 2026**."
+  text: "[CP-MLPs](https://arxiv.org/abs/2611.13647), a tensor-rank theory of tied vs. untied MLP blocks, accepted at **NeurIPS 2026**."
 
 - date: 2026-09-01   # TODO: check month
   text: "TT-Delta (KV-cache compression) accepted at the Efficient Reasoning Workshop @ **COLM 2026**."
